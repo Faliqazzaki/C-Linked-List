@@ -22,7 +22,11 @@ Program ini mendukung beberapa operasi dasar pada linked list, seperti:
 ## 🗂️ Struktur Direktori
 .
 ├── main.c         // Program utama
+<br>
 ├── body.c         // Implementasi fungsi linked list
+<br>
 ├── head.h         // Header ADT
+<br>
 ├── run.sh         // (Opsional) Script compile & run
+<br>
 └── README.md      // Dokumentasi proyek
