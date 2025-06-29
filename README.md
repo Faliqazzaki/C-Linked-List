@@ -20,14 +20,10 @@ Program ini mendukung beberapa operasi dasar pada linked list, seperti:
 - Paradigma: Modular Programming (jika menggunakan file `.h` dan `.c` terpisah)
 
 ## 🗂️ Struktur Direktori
+```plaintext
 .
-<br>
-├── main.c         // Program utama
-<br>
-├── body.c         // Implementasi fungsi linked list
-<br>
-├── head.h         // Header ADT
-<br>
-├── run.sh         // (Opsional) Script compile & run
-<br>
-└── README.md      // Dokumentasi proyek
+├── main.c      // Program utama
+├── body.c      // Implementasi fungsi linked list
+├── head.h      // Header ADT
+├── run.sh      // (Opsional) Script compile & run
+└── README.md   // Dokumentasi proyek
