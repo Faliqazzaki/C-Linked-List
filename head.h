@@ -10,7 +10,7 @@ MODUL KONTROL : sebuah jenis modul yang bertujuan untuk mengendalikan linked lis
 MODUL NON KONTROL : Sebuah jenis modul yang berfungsi untuk hal lain yang tidak berpengaruh terhadap pengendalian linked list
 */
 
-/* DEKLARASI TIPE DATA */
+// DEKLARASI TIPE DATA
 typedef int infotype; 
 typedef struct NODE* address;
 
@@ -50,7 +50,7 @@ void delAwalNode(List *L, infotype *X);
 
 // IS : List minimal memiliki dua node, dan terdapat node dengan nilai Y
 // FS : Node setelah node dengan nilai X dihapus dan nilainya disimpan dalam Y
-void delTengahNode(List *L, infotype X, infotype *Y);
+void delTengahNode(List *L, infotype X);
 
 // IS : List minimal memiliki satu node
 // FS : Node terakhir dihapus dari list dan nilainya disimpan dalam X
@@ -61,6 +61,10 @@ void delAkhirNode(List *L, infotype *X);
 // IS : List dalam kondisi apapun (kosong atau tidak)
 // FS : Seluruh elemen list ditampilkan ke layar
 void printList(List L);
+
+// IS : List bisa ada atau tidak ada
+// FS : Mengembalika nilai dari jumlah node di list 
+int jumlahNodeList(List *L);
 
 
 

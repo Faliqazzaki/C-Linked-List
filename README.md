@@ -17,7 +17,7 @@ Program ini mendukung beberapa operasi dasar pada linked list, seperti:
 
 ## 🛠️ Teknologi yang Digunakan
 - Bahasa Pemrograman: C
-- Paradigma: Modular Programming (jika menggunakan file `.h` dan `.c` terpisah)
+- Paradigma: Modular Programming (menggunakan file `.h` dan `.c` terpisah)
 
 ## 🗂️ Struktur Direktori
 ```plaintext
