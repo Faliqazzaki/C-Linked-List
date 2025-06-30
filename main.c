@@ -11,7 +11,9 @@ int main(){
         addAwalNode(&head, i);
         i--;
     }
-
+    
+    addAkhirNode(&head, 11);
+    addTengahNode(&head, 12, 11);
     jumlah = jumlahNodeList(&head);
     // delAwalNode(&head, &temp);
     printList(head);

@@ -1,0 +1,11 @@
+# Abaikan semua file executable Windows
+*.exe
+
+# Abaikan file object hasil kompilasi
+*.o
+
+# Abaikan file binary hasil compile
+linkedlist
+
+# Abaikan file run script log atau sementara
+*.log
