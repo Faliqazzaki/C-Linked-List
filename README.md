@@ -22,8 +22,28 @@ Program ini mendukung beberapa operasi dasar pada linked list, seperti:
 ## 🗂️ Struktur Direktori
 ```plaintext
 .
-├── main.c      // Program utama
-├── body.c      // Implementasi fungsi linked list
-├── head.h      // Header ADT
-├── run.sh      // (Opsional) Script compile & run
-└── README.md   // Dokumentasi proyek
+├── main.c         // Fungsi utama
+├── body.c         // Implementasi ADT linked list
+├── head.h         // Header file untuk deklarasi fungsi
+├── run.sh         // Script compile & run otomatis
+├── README.md      // Dokumentasi proyek
+└── .gitignore     // File/folder yang diabaikan Git
+
+```
+
+---
+
+## 🧪 Cara Menjalankan Program
+
+### 🔧 Jalankan Otomatis dengan Script
+
+Program ini sudah dilengkapi dengan file `run.sh` agar proses **kompilasi dan eksekusi lebih mudah**.
+
+#### ✅ Langkah-langkah:
+
+1. Buka terminal (Bash)
+2. Pastikan kamu berada di direktori project ini
+3. Jalankan perintah berikut:
+
+```bash
+./run.sh
