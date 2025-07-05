@@ -8,6 +8,7 @@ INFORMASI JENIS MODUL
 MODUL KONSTRUKTOR : sebuah jenis modul untuk menyusun atau membangun sebuah node 
 MODUL KONTROL : sebuah jenis modul yang bertujuan untuk mengendalikan linked list
 MODUL NON KONTROL : Sebuah jenis modul yang berfungsi untuk hal lain yang tidak berpengaruh terhadap pengendalian linked list
+MODUL INTERFACE : Sebuah jenis modul yang berfungsi untuk menampilkan interface dari program linked list
 */
 
 // DEKLARASI TIPE DATA
@@ -56,6 +57,10 @@ void delTengahNode(List *L, infotype X);
 // FS : Node terakhir dihapus dari list dan nilainya disimpan dalam X
 void delAkhirNode(List *L, infotype *X);
 
+// IS : List ada
+// FS : Seluruh node di list sudah dihapus
+void delList(List *L);
+
 
 /* MODUL NON KONTROL */
 // IS : List dalam kondisi apapun (kosong atau tidak)
@@ -64,8 +69,21 @@ void printList(List L);
 
 // IS : List bisa ada atau tidak ada
 // FS : Mengembalika nilai dari jumlah node di list 
-int jumlahNodeList(List *L);
+int countNodeList(List L);
 
+// IS : User tidak bisa mencari sebuah item di list
+// FS : User dapat mencari item di list
+void searchItem(List L, infotype X);
+
+
+/* MODUL INTERFACE */
+// IS : User tidak bisa membuat list
+// FS : User bisa membuat list
+void programLinkedList();
+
+// IS : Tidak ada banner template untuk menampilkan linked list
+// FS : Terdapat sebuah banner bertuliskan linked list dengan desain sedemikian rupa
+void bannerTemplate();
 
 
 #endif
